@@ -1,0 +1,459 @@
+*{
+ margin: 0;
+ --border:#80808085;
+ --bg:#fff;
+ padding: 0;
+ list-style: none;
+ text-decoration: none;
+ outline: none;
+ border: none;
+ /* font-weight: bold; */
+ --100%: 100%;
+}
+
+.red{
+  color: red;
+}
+.icon{
+  width: 15px;
+  display: inline-block;
+}
+
+.wadah .rating-nyala{
+  width: 12px;
+}
+
+.pointer{
+ cursor: pointer;
+}
+
+.justify{
+ text-align: justify;
+}
+
+.center{
+ text-align: center;
+}
+
+.margin-auto{
+ margin: auto;
+ display: block;
+}
+.disnone{
+ display: none;
+}
+.flex{
+ display: flex;
+}
+.justify-content-center{
+ justify-content: space-between;
+}
+.align-items{
+ align-items: center;
+}
+
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background: linear-gradient(#5a5a5a 10%,  #eaeaea 80%);
+ background-repeat: no-repeat;
+ overflow-x: hidden;
+}
+
+
+
+.direction-column{
+ flex-direction: column;
+}
+.capitalize{
+ text-transform: capitalize;
+}
+
+.justify-between{
+ justify-content: space-between;
+}
+
+header{
+ padding: 10px 0;
+}
+
+.wadah{
+ width: 94%;
+ margin: auto;
+}
+
+.cari{
+ /* border: 1px solid; */
+ border-radius: 10px;
+ overflow: hidden;
+ box-sizing: border-box;
+ width: 78%;
+}
+
+.chat{
+ width: 23px;
+ filter: invert(100);
+}
+
+.cari .pointer{
+ text-transform: capitalize;
+ font-weight: bold;
+ padding: 4px;
+ background: white;
+}
+
+.nav-top input{
+ width: 100%;
+ height: 32px;
+ padding-left: 5px;
+ /* border: 1px solid ; */
+}
+
+.toggle{
+ flex-direction: column;
+ height: 23px;
+ position: relative;
+ cursor: pointer;
+ z-index: 1;
+ /* background-color: aqua; */
+ overflow: hidden;
+}
+
+/* .ebook a{
+ position: absolute;
+ right: 28px;
+
+ text-transform: capitalize;
+ color: black;
+ font-weight: bold;
+} */
+
+.toggle span{
+ transition:all .5s;
+ border-radius: 5px;
+ display: block;
+ width: 26px;
+ height: 3px;
+ background: #e6e6e6;
+}
+
+.toggle span:first-child{
+ width: 17px;
+}
+
+.toggle span:last-child{
+ width: 11px;
+}
+
+.toggle.close span:first-child{
+ transform: translate(.8px, 9px) rotate(42deg);
+ width: 25px;
+ transition-delay: .125s;
+}
+
+.toggle.close span:nth-child(2){
+ transform: translateX(26px);
+}
+.toggle.close span:last-child{
+ width: 25px;
+ transition-delay: .25s;
+ transform:translate(1px,-10px)  rotate(315deg) ;
+}
+
+.bgwhite{
+  background: white;
+}
+
+/* .toggle.close span:last-child{
+ background: red;
+}
+.toggle.close span:nth-child(2){
+ /* transform: scale(0); 
+}*/
+/* .toggle.close span:first-child{
+ background: yellow;
+}  */
+
+/* .nav-top img{
+ filter: invert(100%);
+ width: 40px;
+ cursor: pointer;
+ position: relative;
+ z-index: 1;
+} */
+
+.menu{
+ position: absolute;
+ z-index: 0;
+ right: 5px;
+ top: 10px;
+ padding-top: 30px;
+ padding-bottom: 10px;
+ background-color: rgb(119, 119, 119);
+}
+
+.menu li a{
+ color: white;
+ display: block;
+ width: 100px;
+ padding: 10px 15px;
+ color: white;
+ text-transform: capitalize;
+}
+
+.menu li:hover a{
+ background: white;
+ color: #111;
+}
+/* akhir header */
+
+
+
+/* bagian hero */
+.hero-slidshow{
+ /* border: 1px solid #4d4d4d; */
+ height: 110px;
+ /* width: var(--100); */
+ scroll-behavior: smooth;
+ margin-top: 10px;
+ overflow: hidden;
+}
+
+.layer{
+ height: 100%;
+ /* overflow: auto; */
+ white-space: nowrap;
+/* transition: 1.7s ease-out;*/
+  animation:slide 15s ease infinite; 
+ display: inline-block;
+ /* background-color: yellow; */
+}
+
+@keyframes slide{
+ 0%{
+  margin-left: 0;
+ }13%{
+  margin-left: 0;
+ }20%{
+  margin-left: -351px;
+ }33%{
+  margin-left: -351px;
+ }40%{
+  margin-left: -703px;
+ }53%{
+  margin-left: -703px;
+ }60%{
+  margin-left: -1055px;
+ }73%{
+  margin-left: -1055px;
+ }80%{
+  margin-left: -1407px;
+ }93%{
+  margin-left: -1407px;
+ }100%{
+  margin-left: -1407px;
+ }
+} 
+
+
+
+
+
+.item-slidshow{
+ overflow: hidden;
+ border-radius: 20px;
+ height: 100%;
+ display: inline-block;
+ transition: 1s;
+ width: 93.8vw;
+ margin-right: 10px;
+ height: 100%;
+}
+
+.lis-target{
+ width: 90px;
+ margin-top: 20px;
+}
+
+.lis-target a{
+ display: block;
+ width: 7px;
+ height: 7px;
+ border-radius: 5px;
+ background-color: black;
+}
+/* akhir hero */
+
+/* ebook */
+.ebook {
+ border: 1px solid;
+ border-radius: 25px;
+ padding: 15px;
+ margin-top: 20px;
+ obackground-color: pink;
+}
+
+.ebook .flex{
+ margin-top: 10px;
+ border: none;
+ box-sizing: border-box;
+ gap: 35px;
+ flex-wrap: wrap;
+}
+
+.ebook h4{
+ text-transform: capitalize;
+ color: white;
+}
+
+.ebook .card{
+ width: 64px;
+ height: 90%;
+ margin-bottom: 8px;
+}
+
+.ebook .cover{
+ overflow: hidden;
+ height: 50px;
+ width: 100%;
+ border-radius: 50%;
+ background: radial-gradient(yellow,purple,red);
+}
+
+.ebook span{
+ font-size: .8em;
+ display: block;
+ text-align: center;
+ margin: 5px 0;
+ color: white;
+ text-shadow: 0 0 5px rgba(0,0,0,.3);
+}
+/* akhir ebook */
+
+
+/* bagian akan hadir */
+.akan-hadir{
+ margin-top: 20px;
+ hbackground: yellow;
+}
+.akan-hadir h4{
+ text-transform: capitalize;
+ margin: 10px 0;
+}
+.akan-hadir > .flex{
+ margin-top: 10px;
+ jbackground-color: pink; 
+ width: 90%;
+ margin: auto;
+ justify-content: space-between;
+}
+
+.akan-hadir .card{
+ justify-content: space-between;
+ background: #dadada;
+ box-shadow: 0 0 9px #3333336b;
+ border-radius: 10px;
+ padding: 7px;
+ width: 140px;
+ padding-right: 0;
+ justify-content: center;
+ gap: 17px;
+ background: white;
+}
+
+.akan-hadir .card div{
+ flex: 1;
+}
+
+.akan-hadir .buku{
+ width: 60px;
+ margin-right: 9px;
+ height: 90px;
+ border-radius: 4px;
+ background-color: #f7bd1d;
+}
+
+.akan-hadir .desc{
+ /* background-color: #94112770; */
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ padding: 8px 0;
+}
+
+.akan-hadir .judul{
+ font-size: .7em;
+ font-weight: bold;
+ text-transform: capitalize;
+}
+
+.akan-hadir button{
+  background-color: red;
+  color: white;
+  display: inline-block;
+  text-transform: capitalize;
+  padding: 3px;
+  width: 55px;
+  border-radius: 3px;
+}
+
+
+.akan-hadir p{
+ font-size: .7em;
+}
+
+
+
+footer{
+ border-top: 1px solid gray;
+ position: fixed;
+ width: 100%;
+ bottom: 0;
+ background-color: var(--bg);
+}
+
+footer a{
+ padding: 10px 0;
+ text-transform: uppercase;
+ font-weight: bold;
+ font-size: .9em;
+}
+footer a:hover{
+ background: pink;
+}
+
+/* .card .cover img:nth-child(1){
+ transform: scale(2);
+} */
+
+
+  @keyframes slow{
+      from{
+          margin-bottom: -40px;
+          opacity: 0;
+      }to{
+          margin-bottom: 0;
+          opacity: 1;
+      }
+  }
+  
+  
+  @keyframes serong{
+    from{
+      transform: translate(20px,-20px);
+      opacity: 0;
+    }to{
+      transform: translate(0,0);
+      opacity: 1;
+    }
+  }
+  
+.menu{
+  animation: serong 1s;
+}
+
+
+
+
+
+ 
+  

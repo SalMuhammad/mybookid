@@ -1,0 +1,90 @@
+
+
+body{
+  background: lavender;
+}
+
+.ringkasan{
+  background-color: white;
+  padding-bottom: 8px;
+}
+
+
+.image-jumbo {
+  overflow: hidden;
+}
+
+.image-jumbo img{
+  width:100%;
+}
+
+ .wadah .ket .b{
+  margin: 13px 0 3px;
+}
+
+ .potong-harga{
+  color: red;
+  font-size: .9em;
+}
+.hrg .rp{
+  text-transform: capitalize;
+}
+
+.ic{
+  width: 35px;
+}
+
+.harga .i{
+  width: 18px;
+  height: 18px;
+}
+
+
+.harga-{
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+
+
+.diskon{
+  text-decoration: line-through;
+  color: gray;
+}
+
+.per{
+  color: red;
+}
+
+.jdl{
+  margin: 10px 0;
+}
+
+.rat span{
+  font-size: .8em;
+}
+.rat p{
+  color: gray;
+  font-size: .7em;
+  display: inline-block;
+}
+
+.bt{
+  display: inline-flex;
+  width: 60px;
+  margin-left: 5px;
+}
+
+.ratinvg-mati{
+  width: 8px;
+}
+
+.pd{
+  padding: 10px 0;
+  margin-top: 7px;
+}
+
+
+.text-right{
+  font-size: .8em;
+}

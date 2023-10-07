@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>shop</title>
+ <link rel="stylesheet" href="halaman_baca.css">
+ <link rel="stylesheet" href="style.css">
+ <style>
+  .header .cari{
+   width: 58.5%;
+  }
+  .header .wadah .nav-top #copy{
+   width: 1px;
+  }
+  .tt{
+      animation: slow .4s;
+  }
+  /*
+  .back.pointer.chat{
+    filter: invert(100);
+  }*/
+ </style>
+</head>
+<body>
+ <div class="header">
+  <div class="wadah">
+   <div class="nav-top flex justify-content-center align-items">
+    <a href="zpasar-ebook.html"><img class="pointer back" src="photos/back.png" width="25px"></a>
+    <!-- <h3 class="logo">logo</h3> -->
+    <div class="cari flex align-items justify-content-center">
+     <button class="pointer"><img src ="photos/lup.png" width="20px"></button>
+     <input type="search" placeholder="cari">
+    </div>
+    <img class="chat pointer" id="copy" src="photos/simpan.png" alt="menu">
+    <img class="chat pointer" src="photos/share.png" alt="menu">
+   </div>
+  </div>
+ </div>
+
+<section>
+ <div class="wadah">
+  <div class="conten">
+   <h3 class="center capitalize">sejarah peradaban islam</h3>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, quae. Accusantium possimus assumenda obcaecati est eos veritatis et beatae, quasi tempora pariatur libero. Quisquam hic maxime doloribus error sequi aut.</p>
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet nobis soluta est consequatur dolor repellat quasi quo nostrum porro, sit, similique ad, earum sint odit accusamus quia! Enim pariatur eos porro, qui commodi ipsam. Dicta, illum et tenetur non quia corrupti alias doloremque vitae repudiandae praesentium quae, qui ea autem?</p>
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita rem, numquam repellendus quam reprehenderit inventore illo adipisci! Ab hic maiores mollitia ut vero nobis commodi earum recusandae quae et sequi asperiores rem labore ea eius, officia debitis eum! Nihil illum, delectus placeat vel velit tenetur maxime dolore, sit iusto eaque quia nulla ipsam minus fugiat dignissimos praesentium provident et quidem inventore id dolores, ratione officiis unde! Consequatur natus enim itaque tempore laborum vitae, excepturi autem iusto exercitationem dolorem laboriosam non libero quia harum fuga? Nihil alias optio </p>
+   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet nobis soluta est consequatur dolor repellat quasi quo nostrum porro, sit, similique ad, earum sint odit accusamus quia! Enim pariatur eos porro, qui commodi ipsam. Dicta, illum et tenetur non quia corrupti alias doloremque vitae repudiandae praesentium quae, qui ea autem?</p>
+
+  </div>
+ </div>
+</section>
+
+
+<div class="lain">
+ <div class="tt">
+  <div class="flex justify-between">
+   <img src="photos/simpan.png">
+   <img src="photos/copy.png">
+   <img src="photos/lov.png">
+   <img src="photos/share.png">
+  </div>
+ </div>
+ <button class="togel flex pointer">
+  <span></span>
+  <span></span>
+  <span></span>
+ </button>
+</div>
+
+<script>
+ const layar = document.querySelector('.lain .tt')
+document.querySelector('.togel').addEventListener('click',function(){
+ layar.classList.toggle('disnone')
+})
+</script>
+</body>
+</html>

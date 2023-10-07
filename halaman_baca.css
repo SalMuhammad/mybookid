@@ -1,0 +1,95 @@
+
+
+.header{
+ margin-top: 9px;
+ /* background: plum; */
+}
+.nav-top{
+ gap: 5px;
+}
+
+.back{
+ filter: invert(0);
+}
+
+.copyShare{
+ width: 59px;
+}
+
+.nav-top .cari{
+ width: 230px;
+}
+
+.conten{
+ margin-top: 24px;
+ background-color: rgba(240, 248, 255, 0.425);
+ padding: 20px 15px;
+ border-radius: 10px;
+ box-sizing: border-box;
+}
+
+.conten h3{
+ /* color: rgb(156, 156, 156); */
+}
+
+.wadah .conten p{
+ /* font-size: 2px; */
+ text-align: justify;
+ text-indent: 19px;
+ font-size: .95em;
+ font-weight: 700;
+ margin: 15px 0;
+}
+
+.lain{
+ position: fixed;
+bottom: 19px;
+right: 5%;
+/* background: white; */
+}
+
+.lain .flex{
+ height: 150px;
+ flex-direction: column;
+ align-items: center;
+ /* background-color: aqua; */
+}
+.lain img{
+ width: 25px;
+ background: white;
+}
+
+.tombol button a{
+  color: white;
+}
+
+.lain .togel{
+ border: 2px solid black;
+ border-radius: 50%;
+ height: 30px;
+ width: 40px;
+ justify-content: space-between;
+ flex-direction: column;
+ padding: 7px;
+ box-sizing: border-box;
+}
+.togel span{
+ background: black;
+ width: 20px;
+ height: 2px;
+ display: red;
+ border: 3px;
+}
+
+.lain .togel span:first-child{
+  width: 15px;
+}
+
+.lain .togel span:last-child{
+  width: 13px;
+}
+
+.simpan{
+  width: 13px;
+  /*filter: invert(0);*/
+}
